@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main()  {
-	fmt.Println("Hola Mundo!") // eliminar esta línea
+	var lado uint64
+  fmt.Scan(&lado)
+  area := lado * lado
+  fmt.Println(area)
 }
